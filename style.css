@@ -1,0 +1,82 @@
+/*Beranda*/
+#hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(asset/pic-9.jpg);
+   background-size: cover; /* Membuat gambar menutupi seluruh elemen */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+  width: 100%; /* Lebar elemen 100% */
+  height: 100vh; /* Tinggi elemen sesuai tinggi viewport */
+    margin-top: -100px;
+}
+.hero {
+    margin-top: 250px;
+}
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #25d366;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.whatsapp-button:hover {
+    background-color: #1ebe57;
+    transform: scale(1.05);
+}
+
+/*footer*/
+.bi-instagram {
+    border: 1px solid #fff;
+    border-radius: 45%;
+    padding: 10px;
+    color: #fff;
+}
+.bi-instagram:hover {
+    background-color: #fff;
+    color: #000;
+}
+.bi-tiktok {
+    border: 1px solid #fff;
+    border-radius: 45%;
+    padding: 10px;
+    color: #fff;
+}
+.bi-tiktok:hover {
+    background-color: #fff;
+    color: #000;
+}
+.bi-facebook {
+    border: 1px solid #fff;
+    border-radius: 45%;
+    padding: 10px;
+    color: #fff;
+}
+.bi-facebook:hover {
+    background-color: #fff;
+    color: #000;
+}
+ul.footer-menu {
+    list-style-type: none;
+    /* Menghilangkan bullet */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Mengatur elemen menjadi horizontal */
+}
+li.footer-menu-list {
+    margin-right: 15px;
+    /* Memberikan jarak antar item */
+}
+.footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
